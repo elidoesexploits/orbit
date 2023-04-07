@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orbit | 404</title>
+    <link rel="stylesheet" href="css/galaxy.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+    <div class="cursor">
+      <div class="planet"></div>
+    </div>
+    <div class="container">
+      <div class="mainhead">
+        <div class="title">
+          <h1>404 | Out of Orbit</h1>
+        </div>
+        <div class="desc">Uh Oh. Looks like you've gone out of Orbit.</div>
+        <button class="return-btn">Return to Orbit</button>
+      </div>
+    </div>
+
+    <canvas id="canvas" height="100%" width="100%"></canvas>
+    <script src="js/void.js"></script>
+    <script src="js/cursor.js"></script>
+
+    <script src="uv/uv.bundle.js"></script>
+    <script src="uv/uv.config.js"></script>
+    <script src="js/ambient.js"></script>
+    <script src="index.js"></script>
+    <script>
+      document.querySelector('.return-btn').addEventListener('click', () => {
+        window.open('/', '_blank');
+      });
+    </script>
+  </body>
+</html>
