@@ -1,7 +1,7 @@
 {
-    "name": "Interstellar",
-    "description": "Interstellar Proxy",
-    "repository": "https://github.com/interstellarnetwork/interstellar",
-    "logo": "https://github.com/interstellarnetwork/interstellar/blob/main/static/assets/images/branding/favicon/in.png",
-    "keywords": ["school", "interstellar", "ultraviolet"]
+    "name": "Orbit",
+    "description": "Orbit Proxy",
+    "repository": "https://github.com/elidoesexploits/orbit",
+    "logo": "https://cdn.discordapp.com/attachments/1078649997626708049/1093497703826194553/Screenshot_20230401-113333_Chrome-removebg-preview.png",
+    "keywords": ["school", "orbit", "ultraviolet"]
   }
