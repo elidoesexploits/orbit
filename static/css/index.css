@@ -151,6 +151,34 @@ html {
     cursor: url("data:image/svg+xml,%3Csvg height='6' width='6' viewBox='0 0 8 8' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='4' cy='4' fill='yellow' r='4'/%3E%3C/svg%3E") 3 3, auto;
 }
 
+.return-btn {
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    background-color: rgba(59, 56, 56, 0.356);
+    border: none;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.return-btn:hover {
+    background-color: rgba(77, 67, 168, 0.356);
+    color: rgba(255, 255, 255, 0.534);
+    scale: 1.1;
+    cursor: url("data:image/svg+xml,%3Csvg height='6' width='6' viewBox='0 0 8 8' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='4' cy='4' fill='yellow' r='4'/%3E%3C/svg%3E") 3 3, auto;
+}
+
+
+
 
 
 
