@@ -336,6 +336,7 @@ html:not(html:hover) .cursor::after {
   line-height: 25px;
   color: white;
   transition: 0.3s;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .header2 a.logo {
@@ -345,7 +346,7 @@ html:not(html:hover) .cursor::after {
 
 .header2 a:hover {
   background-color: black;
-  color: white;
+  color: rgb(56, 16, 129);
   cursor: pointer;
   font-weight: bold;
   transition: 0.3;
