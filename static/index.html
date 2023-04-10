@@ -9,25 +9,25 @@
   </head>
 
   <body>
-    <div class="header2">
-    <br>
-    <a href="/../" class="logo">Orbit</a>
-    <div class="header2-right">
-      <a href="/">Home</a>
-      <a href="proxy">Proxy</a>
-      <a href="about">About Orbit</a>
-    </div>
     <div class="cursor">
       <div class="planet"></div>
     </div>
     <div class="container">
+      <div class="header2">
+      <br>
+      <a href="/../" class="logo">Orbit</a>
+      <div class="header2-right">
+       <a href="/">Home</a>
+       <a href="proxy">Proxy</a>
+       <a href="about">About Orbit</a>
+      </div>
       <div class="mainhead">
         <div class="title">
           <h1>Orbit</h1>
         </div>
         <div class="desc">Welcome to Orbit.</div>
-        <button class="proxy-btn" href="proxy">Proxy</button>
-        <button class="about-btn" href="about">About Orbit</button>
+        <button class="proxy-btn">Proxy</button>
+        <button class="about-btn">About Orbit</button>
         <button class="discord-btn">Join my Discord</button>
       </div>
     </div>
@@ -43,6 +43,16 @@
     <script>
       document.querySelector('.discord-btn').addEventListener('click', () => {
         window.open('https://discord.gg/s32VrB8ZBJ', '_blank');
+      });
+    </script>
+    <script>
+      document.querySelector('.proxy-btn').addEventListener('click', () => {
+        window.open('/proxy');
+      });
+    </script>
+    <script>
+      document.querySelector('.about-btn').addEventListener('click', () => {
+        window.open('/about');
       });
     </script>
   </body>
