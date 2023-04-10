@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orbit | Beta</title>
+    <link rel="stylesheet" href="css/galaxy.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+    <div class="cursor">
+      <div class="planet"></div>
+    </div>
+    <div class="container">
+      <div class="mainhead">
+        <div class="title">
+          <h1>Orbit</h1>
+        </div>
+        <div class="desc">Go into Orbit.</div>
+        <input type="text" class="galaxy-input" placeholder="State your destination."/>
+        <button class="search-btn">🪐Launch</button>
+        <button class="discord-btn">Join my Discord</button>
+      </div>
+    </div>
+
+    <canvas id="canvas" height="100%" width="100%"></canvas>
+    <script src="js/void.js"></script>
+    <script src="js/cursor.js"></script>
+
+  <script src="./uv/uv.bundle.js"></script>
+  <script src="./uv/uv.config.js"></script>
+    <script src="js/ambient.js"></script>
+    <script src="index.js"></script>
+    <script>
+      document.querySelector('.discord-btn').addEventListener('click', () => {
+        window.open('https://discord.gg/s32VrB8ZBJ', '_blank');
+      });
+    </script>
+  </body>
+</html>
