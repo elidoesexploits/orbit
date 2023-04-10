@@ -19,6 +19,14 @@ app.use(
 
 app.use(express.static(path.join(__dirname, "static")));
 
+app.get("/proxy", (req, res) => {
+  res.sendFile(path.join(__dirname, "static", "proxy.html"));
+});
+
+app.get("/about", (req, res) => {
+  res.sendFile(path.join(__dirname, "static", "about.html"));
+});
+
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "static", "index.html"));
 });
@@ -27,7 +35,7 @@ app.get("/404", (req, res) => {
   res.sendFile(path.join(__dirname, "static", "404.html"));
 });
 
-app.get("*", (req, res) => {
+app.get("/*", (req, res) => {
   res.redirect("/404");
 });
 
