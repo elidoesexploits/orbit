@@ -334,7 +334,7 @@ html:not(html:hover) .cursor::after {
   text-decoration: none;
   font-size: 18px;
   line-height: 25px;
-  color: white;
+  color: rgb(56, 16, 129);
   transition: 0.3s;
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -345,8 +345,8 @@ html:not(html:hover) .cursor::after {
 }
 
 .header2 a:hover {
-  background-color: black;
-  color: rgb(56, 16, 129);
+  background-color: transparent;
+  color: rgba(153, 0, 255, 0.096);
   cursor: pointer;
   font-weight: bold;
   transition: 0.3;
@@ -354,7 +354,7 @@ html:not(html:hover) .cursor::after {
 
 .header2 a.active {
   background-color: #333;
-  color: white;
+  color: rgb(56, 16, 129);
 }
 
 .header2-right {
