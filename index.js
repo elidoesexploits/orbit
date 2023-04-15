@@ -23,6 +23,14 @@ app.get("/proxy", (req, res) => {
   res.sendFile(path.join(__dirname, "static", "proxy.html"));
 });
 
+app.get("/loading", (req, res) => {
+  res.sendFile(path.join(__dirname, "static", "loading.html"));
+});
+
+app.get("/web", (req, res) => {
+  res.sendFile(path.join(__dirname, "static", "web.html"));
+});
+
 app.get("/about", (req, res) => {
   res.sendFile(path.join(__dirname, "static", "about.html"));
 });
