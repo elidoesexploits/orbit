@@ -57,3 +57,4 @@ type = "pwa-node"
 
 [unitTest]
 language = "nodejs"
+
