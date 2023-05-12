@@ -27,8 +27,8 @@
           <h1>Orbit</h1>
         </div>
         <div class="desc">Welcome to Orbit.</div>
-        <button class="proxy-btn" href="/proxy">Proxy</button>
-        <button class="about-btn" href="/about">About Orbit</button>
+        <button <button onclick="location.href = '/proxy';" class="proxy-btn">Proxy</button>
+        <button <button onclick="location.href = '/about';" class="about-btn">About Orbit</button>
         <button class="discord-btn">Join my Discord</button>
       </div>
     </div>
@@ -45,16 +45,6 @@
       document.querySelector('.discord-btn').addEventListener('click', () => {
         window.open('https://discord.gg/U8aDRZryKq', '_blank');
       });
-    </script>
-        <script>
-    document.getElementById(".proxy-btn").onclick = function () {
-        location.href = "/proxy";
-    };
-    </script>
-    <script>
-    document.getElementById(".about-btn").onclick = function () {
-        location.href = "/about";
-    };
     </script>
   </body>
 </html>
