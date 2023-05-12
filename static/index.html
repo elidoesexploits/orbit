@@ -47,14 +47,14 @@
       });
     </script>
     <script>
-      document.querySelector('.proxy-btn').addEventListener('click', () => {
-        window.href('/proxy');
-      });
+    document.getElementById(".proxy-btn").onclick = function () {
+        location.href = "/proxy";
+    };
     </script>
     <script>
-      document.querySelector('.about-btn').addEventListener('click', () => {
-        window.href('/about');
-      });
+    document.getElementById(".about-btn").onclick = function () {
+        location.href = "/about";
+    };
     </script>
   </body>
 </html>
