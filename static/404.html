@@ -31,9 +31,9 @@
     <script src="js/ambient.js"></script>
     <script src="index.js"></script>
     <script>
-      document.querySelector('.return-btn').addEventListener('click', () => {
-        window.href('/');
-      });
+    document.getElementById(".return-btn").onclick = function () {
+        location.href = "/";
+    };
     </script>
   </body>
 </html>
